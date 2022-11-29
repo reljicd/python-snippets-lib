@@ -1,7 +1,7 @@
 from decorator import contextmanager
 from sqlalchemy.orm import Session
 
-from db.scoped_session import session_factory
+from scoped_session import session_factory
 
 
 @contextmanager
