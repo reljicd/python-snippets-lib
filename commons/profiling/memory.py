@@ -1,7 +1,7 @@
 import tracemalloc
 
-from config.env_vars import DEBUG
-from profiling.display_top import display_top
+from commons.config.env_vars import DEBUG
+from commons.profiling.display_top import display_top
 
 if DEBUG:
     tracemalloc.start()
