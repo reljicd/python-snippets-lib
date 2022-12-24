@@ -1,4 +1,5 @@
-from decorator import contextmanager
+from contextlib import contextmanager
+
 from sqlalchemy.orm import Session
 
 from scoped_session import session_factory
