@@ -5,9 +5,9 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.orm import (Session as AlchemySession, scoped_session,
                             sessionmaker)
 
-from reljicd_utils.config.env_vars import (LOGGING_LEVEL, POSTGRES_DB, POSTGRES_HOST,
-                                           POSTGRES_PASSWORD, POSTGRES_PORT,
-                                           POSTGRES_USER)
+from reljicd_utils.config import (LOGGING_LEVEL, POSTGRES_DB, POSTGRES_HOST,
+                                  POSTGRES_PASSWORD, POSTGRES_PORT,
+                                  POSTGRES_USER)
 
 engine: Engine = create_engine(
     f'postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@'

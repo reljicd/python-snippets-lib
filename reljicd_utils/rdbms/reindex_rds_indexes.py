@@ -2,9 +2,8 @@ from typing import List
 
 import fire
 
-from reljicd_utils.logger.logger import get_logger
-from reljicd_utils.rdbms.set_sequences import SCHEMAS
-from reljicd_utils.rdbms.utils import execute_statement, schema_tables
+from reljicd_utils.logger import get_logger
+from reljicd_utils.rdbms import SCHEMAS, execute_statement, schema_tables
 
 LOGGER = get_logger(__name__)
 

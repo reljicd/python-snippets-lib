@@ -9,9 +9,8 @@ from sqlalchemy import BigInteger, Column, TIMESTAMP, func
 from sqlalchemy.orm import Query
 from sqlalchemy.orm.exc import NoResultFound
 
-from reljicd_utils.logger.logger import get_logger
-from reljicd_utils.rdbms.scoped_session import Session
-from reljicd_utils.rdbms.transaction import transaction
+from reljicd_utils.logger import get_logger
+from reljicd_utils.rdbms import Session, transaction
 
 LOGGER = get_logger(__name__)
 
