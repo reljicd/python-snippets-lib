@@ -2,9 +2,10 @@ import itertools
 import os
 from typing import Callable, List
 
-from reljicd_utils.file_system import files_in_dir, files_in_dir_recursive
-from reljicd_utils.logger import get_logger
-from reljicd_utils.multiprocessing import multiprocess
+from reljicd_utils.file_system.file_system import (files_in_dir,
+                                                   files_in_dir_recursive)
+from reljicd_utils.logger.logger import get_logger
+from reljicd_utils.multiprocessing.multiprocess import multiprocess
 from reljicd_utils.utils import s3
 
 LOGGER = get_logger(__name__)

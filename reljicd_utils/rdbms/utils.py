@@ -3,8 +3,8 @@ from typing import List
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 from sqlalchemy.exc import ProgrammingError
 
-from reljicd_utils.logger import get_logger
-from reljicd_utils.rdbms import engine
+from reljicd_utils.logger.logger import get_logger
+from reljicd_utils.rdbms.scoped_session import engine
 
 LOGGER = get_logger(__name__)
 

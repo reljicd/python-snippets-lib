@@ -1,7 +1,7 @@
 from typing import Generator, Iterable
 
-from reljicd_utils.collections import chunks
-from reljicd_utils.logger import get_logger
+from reljicd_utils.collections.iter_tools import chunks
+from reljicd_utils.logger.logger import get_logger
 
 LOGGER = get_logger(__name__)
 

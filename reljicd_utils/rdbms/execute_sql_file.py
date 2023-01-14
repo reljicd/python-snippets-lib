@@ -1,7 +1,7 @@
 import fire
 from sqlalchemy import text
 
-from reljicd_utils.rdbms import engine
+from reljicd_utils.rdbms.scoped_session import engine
 
 
 def execute_sql_file(file: str) -> None:

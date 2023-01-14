@@ -5,9 +5,10 @@ from typing import Callable, Iterable
 
 from str2bool import str2bool
 
-from reljicd_utils.collections import chunks, iter_counter
-from reljicd_utils.config import get_env
-from reljicd_utils.logger import get_logger
+from reljicd_utils.collections.iter_counter import iter_counter
+from reljicd_utils.collections.iter_tools import chunks
+from reljicd_utils.config.env_vars import get_env
+from reljicd_utils.logger.logger import get_logger
 
 LOGGER = get_logger(__name__)
 SPAWN: bool = str2bool(get_env(key='SPAWN', default='False'))
