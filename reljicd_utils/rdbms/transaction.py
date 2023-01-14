@@ -4,9 +4,9 @@ from contextlib import contextmanager
 
 from sqlalchemy.exc import IntegrityError
 
-from commons.config.env_vars import LOGGING_LEVEL
-from commons.rdbms.scoped_session import Session
-from commons.logger.logger import get_logger
+from reljicd_utils.config.env_vars import LOGGING_LEVEL
+from reljicd_utils.rdbms.scoped_session import Session
+from reljicd_utils.logger.logger import get_logger
 
 LOGGER = get_logger(__name__)
 

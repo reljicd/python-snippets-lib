@@ -4,8 +4,8 @@ import fire
 from sqlalchemy import inspect
 from sqlalchemy.sql.ddl import CreateSchema, DropSchema
 
-from commons.rdbms.scoped_session import engine
-from commons.rdbms.transaction import transaction
+from reljicd_utils.rdbms.scoped_session import engine
+from reljicd_utils.rdbms.transaction import transaction
 
 PUBLIC_SCHEMA = 'public'
 BASES = []

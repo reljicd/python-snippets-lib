@@ -5,7 +5,7 @@ import xmltodict
 from lxml import etree
 from lxml.etree import tostring
 
-from commons.utils.s3 import read_file
+from reljicd_utils.utils.s3 import read_file
 
 
 def dict_from_xml_file(file: str) -> Dict[str, Union[Dict, str]]:

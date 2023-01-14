@@ -1,7 +1,7 @@
 import fire
 from sqlalchemy.exc import ProgrammingError
 
-from commons.rdbms.scoped_session import engine
+from reljicd_utils.rdbms.scoped_session import engine
 
 SCHEMAS = ['public']
 

@@ -2,7 +2,7 @@ import fire
 from sqlalchemy.exc import ProgrammingError
 from sqlalchemy_utils import create_database, drop_database
 
-from commons.rdbms.scoped_session import engine
+from reljicd_utils.rdbms.scoped_session import engine
 
 
 def recreate_database(name: str = None, template: str = None) -> None:
