@@ -7,5 +7,4 @@ boto3>=1.26.37
 xmltodict>=0.13.0
 pandas>=1.5.2
 str2bool>=1.1
-# lxml>=4.9.0
 numpy>=1.21.6
