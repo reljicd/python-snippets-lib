@@ -1,1 +1,1 @@
-from .logger import *
+from reljicd_utils.logger.logger import *

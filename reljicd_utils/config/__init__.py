@@ -1,1 +1,1 @@
-from env_vars import *
+from reljicd_utils.config.env_vars import *
