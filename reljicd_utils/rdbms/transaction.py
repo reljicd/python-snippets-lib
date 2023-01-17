@@ -4,7 +4,7 @@ from contextlib import contextmanager
 
 from sqlalchemy.exc import IntegrityError
 
-from reljicd_utils.config.env_vars import LOGGING_LEVEL
+from reljicd_utils.rdbms.env_vars import LOGGING_LEVEL
 from reljicd_utils.logger.logger import get_logger
 from reljicd_utils.rdbms.scoped_session import Session
 

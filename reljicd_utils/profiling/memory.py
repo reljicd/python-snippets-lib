@@ -1,6 +1,6 @@
 import tracemalloc
 
-from reljicd_utils.config.env_vars import DEBUG
+from reljicd_utils.rdbms.env_vars import DEBUG
 from reljicd_utils.profiling.display_top import display_top
 
 if DEBUG:
